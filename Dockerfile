@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Expose port 8080, which is what the node process is listening to
-EXPOSE 9000
+EXPOSE 8080
 
 # Set the startup command to 'npm start'
 CMD [ "npm", "start"] 
